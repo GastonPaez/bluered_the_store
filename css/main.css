@@ -3,8 +3,18 @@
 body{
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
+#header{
+    background: #B25679 !important;
+    
+}
+
+#bt-subs{
+    background: #673F6F;
+    color: #f3f3f3;
+}
 #menu a{
     font-size: 18px;
     font-weight: bold;
@@ -19,6 +29,10 @@ body{
 
 .carousel-inner{
     max-height: 30rem;
+    
+}
+
+#mid-section{
     
 }
 
@@ -61,18 +75,53 @@ body{
 }
 
 .bg-contact{
-    position: relative;
-    top: -130;
+    position:relative;
+    top: -130px;
 
 }
 
-.contact{
+#contact{
     background-color: #1b2a4e;
     min-height: 500px;
     position: relative;
 
 }
 
+#container-form {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #B25679 ;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#form-title {
+    color: #f3f3f3;
+}
+
+#button {
+    background: #673F6F !important;
+    color: #f3f3f3;
+}
+
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.icons i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
 
 @media (max-width: 1200px){
     #local {
